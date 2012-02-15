@@ -2,7 +2,7 @@
 
 %define name	ruby-%{rname}
 %define version 0.1.3
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Enhancements for Irb
 Name:		%{name}
