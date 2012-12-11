@@ -43,3 +43,14 @@ gem install --ri -E -n %{buildroot}%{_bindir} --local --install-dir %{buildroot}
 %doc %{ruby_gemdir}/doc/%{rname}-%{version}
 %{ruby_gemdir}/gems/%{rname}-%{version}
 %{ruby_gemdir}/specifications/%{rname}-%{version}.gemspec
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.1.3-2mdv2012.0
++ Revision: 774161
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Fri Nov 04 2011 Lev Givon <lev@mandriva.org> 0.1.3-1
++ Revision: 717622
+- imported package ruby-wirble
+
