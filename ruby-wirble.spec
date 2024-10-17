@@ -11,7 +11,7 @@ Release:	%{release}
 Source0:	http://pablotron.org/files/gems/%{rname}-%{version}.gem
 License:	MIT
 Group:		Development/Ruby
-Url:		http://pablotron.org/software/wirble/
+Url:		https://pablotron.org/software/wirble/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 BuildRequires:	ruby-RubyGems
